@@ -1,0 +1,21 @@
+
+#container{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.janela{
+    width: 300px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(31, 31, 31);
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+

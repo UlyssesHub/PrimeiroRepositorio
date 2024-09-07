@@ -1,0 +1,103 @@
+/* ========================================================= FEATURE ============================================================= */
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+#feature .feBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 3px solid #E3E6F3;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 44px;
+    background-color: #d6d6d6;
+
+}
+
+#feature .feBox:hover {
+    box-shadow: 10px 10px 54px rgba(54, 16, 16, 0.1);
+    background-color: #E3E6F3;
+    cursor: pointer;
+
+}
+
+#feature .feBox img {
+    width: 120px;
+    height: 120px;
+
+}
+
+#feature .feBox h6 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #eeeeee;
+    background-color: rgb(187, 138, 47);
+}
+
+#feature .feBox:nth-child(2) h6 {
+    /* Oque é "nth-child()"?*/
+    background-color: rgb(65, 65, 65);
+}
+
+#feature .feBox:nth-child(3) h6 {
+    background-color: rgb(54, 150, 46);
+}
+
+#feature .feBox:nth-child(4) h6 {
+    background-color: rgb(142, 88, 204);
+}
+
+#feature .feBox:nth-child(5) h6 {
+    background-color: rgb(172, 59, 59);
+}
+
+#feature .feBox:nth-child(6) h6 {
+    background-color: rgb(185, 163, 33);
+}
+
+#feature .feBox:nth-child(7) h6 {
+    background-color: rgb(57, 132, 155);
+}
+
+#feature .feBox:nth-child(8) h6 {
+    background-color: rgb(121, 121, 121);
+}
+
+#feature .feBox:nth-child(9) h6 {
+    background-color: rgb(141, 139, 32);
+}
+
+#feature .feBox:nth-child(10) h6 {
+    background-color: rgb(173, 109, 50);
+}
+
+#feature .feBox:nth-child(11) h6 {
+    background-color: rgb(109, 78, 60);
+}
+
+#feature .feBox:nth-child(12) h6 {
+    background-color: rgb(81, 146, 143);
+}
+
+#feature .feBox:nth-child(13) h6 {
+    background-color: rgb(133, 125, 110);
+}
+
+#feature .feBox:nth-child(14) h6 {
+    background-color: rgb(161, 98, 163);
+}
+/* ========================================================= FEATURE ============================================================= */

@@ -1,0 +1,29 @@
+#bannerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bannerContainer2 {
+    background-color: aqua;
+
+}
+
+
+
+#banner {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4f6f95;
+    width: 74%;
+    height: 42vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+}

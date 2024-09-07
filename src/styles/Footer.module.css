@@ -1,0 +1,132 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #E3E6F3;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0;
+    line-height: 24px;
+
+}
+
+footer h4 {
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 26px;
+    cursor: pointer;
+    font-size: 30px;
+
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+
+footer .install .row img {
+    border: 2px solid #d4d4d4;
+    border-radius: 6px;
+}
+
+footer .istall img {
+    margin: 10px 0 15px 0;
+}
+
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+#appleGoogle {
+    width: 200px;
+    height: 133px;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #373b89;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #cdcdcd;
+    margin: 0;
+}
+
+#newsletter p span {
+    color: #edbc2c;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+
+    outline: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#newsletter .newstext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

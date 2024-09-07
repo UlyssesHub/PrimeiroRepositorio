@@ -1,0 +1,25 @@
+#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:14px 0px 14px 0px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    gap: 74px;
+
+    /* Oque é "z-index"?*/
+    /* Oque é "position: sticky"?*/}
+
+#header ul li{
+    list-style: none;
+}
+
+#header ul li a{
+    text-decoration: none;
+}
+

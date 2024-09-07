@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('fonts\Raleway\static\Raleway-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#containerMaior {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que o contêiner ocupe a altura total da tela, sem isso não funciona */
+    font-family: 'Raleway-Medium', sans-serif;
+}
+
+#container{
+
+    width: 560px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#container form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+}
+
+#container form #lembrarRecuperar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#container form #LoginRegistrar{
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#container form #LoginRegistrar button{
+
+   font-size: 30px;
+   background-color: #333;
+   border-radius: 32px;
+   padding: 1rem;
+   color: #fff;
+   border: 0px;
+   cursor: pointer;
+}
+
+#container form #LoginRegistrar button:hover{
+    background-color: #278145;
+}
+
+#container h3{
+    margin-bottom: 8px;
+    color: rgb(68, 68, 68);
+}
+ 
+.input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-radius: 4px;
+    color: rgb(36, 36, 36);
+    border: 2px solid rgb(167, 167, 167); /* Define a largura e o estilo da borda */
+    outline: none;
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura total */
+}
+
+.input:focus {
+    border: 3px solid rgb(85, 128, 91); /* Define a largura e o estilo da borda ao focar */
+}
